@@ -1,0 +1,90 @@
+body {
+  margin: 0rem;
+  background-color: #ffffff;
+}
+
+#main {
+  margin: 25px 8px;
+  padding: 30px 14px;
+  border-radius: 10px;
+  background-color: #eeeeee;
+}
+
+#main #title {
+  font-weight: bolder;
+  text-align: center;
+}
+
+#main #sub-title {
+  text-align: center;
+}
+
+#main #image-div {
+  background-color: white;
+  width: 100%;
+  /* margin-bottom: 2rem; */
+}
+
+#main #image-div img {
+  width: 100%;
+}
+
+#main #image-div #image-caption {
+  padding: 20px;
+}
+
+#main #tribute-info {
+  /* padding: 1rem; */
+  width: 545px;
+  margin: 0 auto;
+}
+
+#main #tribute-info h5 {
+  text-align: center;
+  font-weight: bold;
+  margin: 2rem 0rem;
+}
+
+#main #tribute-info ul {
+  text-align: left;
+  /* padding: 0rem 14rem; */
+}
+
+#main #tribute-info ul li {
+  margin: 3% 0%;
+}
+
+#main #tribute-info .down {
+  padding: 2rem 0 0 1rem;
+  font-style: italic;
+}
+
+#main #tribute-info p {
+  /* margin: 1rem 0rem; */
+  /* padding: 0rem 13rem; */
+  font-style: italic;
+}
+
+#main #tribute-link {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#main #tribute-link a {
+  text-decoration: underline;
+  color: #74638f;
+}
+
+#main #tribute-link a:hover {
+  color: #74638f;
+}
+
+@media (max-width: 767px) {
+  #main {
+    margin: 0;
+  }
+  #main #tribute-info {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
